@@ -1,0 +1,14 @@
+{
+  "name": "饿了么外卖运营系统",
+  "version": "1.0.0",
+  "created": "2026-02-12T10:35:24.059675",
+  "goal": "盈利基础上接更多订单",
+  "data_export_interval_days": 3,
+  "operation_limits": {
+    "max_price_changes_per_day": 20,
+    "max_menu_updates_per_hour": 10,
+    "max_response_time_minutes": 5,
+    "min_rating_threshold": 4.5,
+    "recommended_order_target_daily": 30
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Eleme Order Export",
+  "schedule": {
+    "kind": "cron",
+    "expr": "0 8 * * *",
+    "tz": "Asia/Shanghai"
+  },
+  "payload": {
+    "kind": "systemEvent",
+    "text": "每3天下载饿了么订单数据进行分析"
+  },
+  "sessionTarget": "isolated",
+  "enabled": true,
+  "description": "每3天执行一次订单下载和分析"
+}

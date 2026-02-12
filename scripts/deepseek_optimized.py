@@ -1,0 +1,1 @@
+/home/michael/.openclaw/workspace/scripts/ele_me_deepseek_optimized.py

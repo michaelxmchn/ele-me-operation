@@ -1,0 +1,42 @@
+# GitHub 上传忽略规则
+
+# 敏感数据
+*.json
+!CORE_STRATEGY.json
+!PROJECT_CONFIG.json
+!cron_*.json
+!run_analysis.sh
+
+# Cookies 和登录数据
+*cookies*
+*.png
+*.jpg
+
+# 日志
+logs/
+*.log
+
+# 数据文件
+data/*.csv
+data/*.json
+
+# 测试文件
+*_test.py
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.bak
+*~

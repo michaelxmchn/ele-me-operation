@@ -1,0 +1,1 @@
+/home/michael/.openclaw/workspace/scripts/eleme_auto_bot.py

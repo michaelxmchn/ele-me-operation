@@ -1,0 +1,15 @@
+{
+  "name": "Eleme Promotion Adjustment",
+  "schedule": {
+    "kind": "cron",
+    "expr": "0 7,11,14,17,23 * * *",
+    "tz": "Asia/Shanghai"
+  },
+  "payload": {
+    "kind": "systemEvent",
+    "text": "饿了么推广自动调整：7点开/11点高峰/14点降/17点高峰/23点关"
+  },
+  "sessionTarget": "isolated",
+  "enabled": true,
+  "description": "每天7,11,14,17,23点自动调整推广出价"
+}
